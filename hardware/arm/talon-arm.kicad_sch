@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1595231b-16b1-40a7-9d08-39642e351a10")
+	(paper "A4")
+	(title_block
+		(title "TALO-N Arm")
+		(rev "v0.1")
+		(company "Jeevan Sanchez")
+	)
+	(lib_symbols)
+	(sheet
+		(at 45.72 97.79)
+		(size 62.23 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a432ac4-9742-4cb3-9d0e-eb586286dd5f")
+		(property "Sheetname" "Actuators"
+			(at 45.72 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Actuators.kicad_sch"
+			(at 45.72 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-arm"
+				(path "/1595231b-16b1-40a7-9d08-39642e351a10"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 97.79)
+		(size 59.69 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9673469e-c1d5-4dd9-b2ff-7ebd57a18f1c")
+		(property "Sheetname" "Power"
+			(at 120.65 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 120.65 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-arm"
+				(path "/1595231b-16b1-40a7-9d08-39642e351a10"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 44.45)
+		(size 62.23 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "990d1302-6d5c-4263-a9f1-be4388812f05")
+		(property "Sheetname" "ESP32S3 Breakout"
+			(at 45.72 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32Breakout.kicad_sch"
+			(at 45.72 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-arm"
+				(path "/1595231b-16b1-40a7-9d08-39642e351a10"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 44.45)
+		(size 59.69 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b0d7934d-6d7e-45b2-97f8-e5ef61fd2b4e")
+		(property "Sheetname" "Vision"
+			(at 120.65 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vision.kicad_sch"
+			(at 120.65 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-arm"
+				(path "/1595231b-16b1-40a7-9d08-39642e351a10"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 97.79)
+		(size 59.69 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f548d4e4-6fe2-4604-a9a4-3ab746a3744f")
+		(property "Sheetname" "TestDebug"
+			(at 187.96 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TestDebug.kicad_sch"
+			(at 187.96 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-arm"
+				(path "/1595231b-16b1-40a7-9d08-39642e351a10"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

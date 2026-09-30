@@ -1,0 +1,203 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "68f29737-1603-4b7a-94e6-9da57abd9362")
+	(paper "A4")
+	(title_block
+		(title "TALO-N Link")
+		(rev "v0.1")
+		(company "Jeevan Sanchez")
+	)
+	(lib_symbols)
+	(sheet
+		(at 146.05 43.18)
+		(size 59.69 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "607d0dfd-f4f5-4f48-b8d3-de644f8364eb")
+		(property "Sheetname" "Sensor Interface"
+			(at 146.05 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SensorInterface.kicad_sch"
+			(at 146.05 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-link"
+				(path "/68f29737-1603-4b7a-94e6-9da57abd9362"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 91.44)
+		(size 59.69 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6ce258e2-179d-4d97-9698-82c80472f71c")
+		(property "Sheetname" "TestDebug"
+			(at 146.05 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TestDebug.kicad_sch"
+			(at 146.05 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-link"
+				(path "/68f29737-1603-4b7a-94e6-9da57abd9362"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 91.44)
+		(size 62.23 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6f260268-8cdf-42f9-99f8-e8b464baf593")
+		(property "Sheetname" "Power"
+			(at 71.12 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 71.12 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-link"
+				(path "/68f29737-1603-4b7a-94e6-9da57abd9362"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 43.18)
+		(size 62.23 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d3b5fd92-f34c-4aa2-a138-f82ebc1997a6")
+		(property "Sheetname" "ESP32S3 Breakout"
+			(at 71.12 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32Breakout.kicad_sch"
+			(at 71.12 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "talon-link"
+				(path "/68f29737-1603-4b7a-94e6-9da57abd9362"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
